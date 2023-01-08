@@ -1,6 +1,6 @@
 class Bill:
     """
-    Objects constains data about a bill, such as
+    Objects contains data about a bill, such as
     total amount and period of the bill
     """
 
@@ -44,4 +44,3 @@ John = Flatmate(name="John", days_in_house=20)
 Marry = Flatmate(name="Mary", days_in_house=25)
 
 print(John.pays(bill=the_bill, flatmate2=Marry))
-
